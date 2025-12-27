@@ -18,7 +18,6 @@ public class Editor2 {
 		Color[][] newImage = Runigram.scaled(image, width, height);
 		Runigram.setCanvas(image);
 		Runigram.display(image);
-
 		Runigram.setCanvas(newImage);
 		Runigram.display(newImage);
 	}
